@@ -1,0 +1,155 @@
+/* Common styles */
+
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+
+hr{
+    border: 0.1px solid #D1D1D1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(41, 35, 35);
+    background-size: cover;
+    padding: 7px;
+    padding-bottom: 0;
+    color: white;
+}
+
+/* Top navbar styles */
+
+.top-navigation{
+    background-color: rgb(130, 130, 229);
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    height: 1.5%;
+}
+
+.top-navbar {
+    display: flex;
+    align-items: stretch;
+}
+
+.icon-class{
+    padding-top: 1%;
+    margin-bottom: .5%;
+    margin-left: 85%;
+}
+
+.icon-class i{
+    color: white;
+    margin-right: 20px;
+}
+
+/* Main navbar styles */
+
+.main-navigation{
+    height: 80px;
+    background-color: gainsboro;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.main-navbar h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins;
+    color: black;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.nav-title{
+    padding-top: 2%;
+    margin-bottom: .5%;
+    margin-right: 9%;
+}
+
+.nav-title a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Poppins;
+    margin-right: 25px;
+}
+
+/* Top background styles */
+
+.top-background{
+    margin-right: -1%;
+    margin-left: -1%;
+    width: 100%;
+    height: 10%;
+}
+
+.top-background img{
+    width: 1400px;
+    height: 300px;
+}
+
+
+/* Left side blogs styles */
+
+.left-side-blogs{
+    width: 65%;
+    padding-left: 5%;
+}
+
+.blogs{
+    padding-bottom: 10px;
+}
+
+.blog{
+    padding-bottom: 10px;
+}
+
+.blog-title h2{
+    font-size: 2em;
+    color: rgb(68, 64, 64);
+}
+
+.date-info{
+    color: rgb(236, 46, 46);
+}
+
+.blog-details p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: justify;
+    font-size: 1.2em;
+    word-spacing: 5px;
+    line-height: 2;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: rgb(236, 46, 46);
+    color: white;
+    font-weight: 700;
+    padding: 4px 15px;
+}
+
